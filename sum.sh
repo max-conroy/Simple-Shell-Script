@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #First SBA for Cloud DevOps program
 
+# THIS IS A TEST FEATURE FROM GIT BRANCH FEATURE1
+
 ARGS=$@
 SUM=0
 
