@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
 ARGS=$@
+SUM=0
 
-for  N in $ARGS; do
+for  N in $ARGS
+do
 SUM=$(( $SUM + $N ))
 done
 
