@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#First SBA for Cloud DevOps program
 
 ARGS=$@
 SUM=0
@@ -8,4 +9,4 @@ do
 SUM=$(( $SUM + $N ))
 done
 
-echo "The sum of arguments entered is :$SUM"
+echo $SUM
